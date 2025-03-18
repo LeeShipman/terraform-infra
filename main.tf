@@ -1,8 +1,8 @@
 terraform {
   required_version = ">= v1.11.1"
   backend "s3" {
-    bucket = "myapp-terraformbucket"
-    key    = "myapp/state.tfstate"
+    bucket = "myapp-terraformbucket-learn"
+    key    = "ec2-module-test/state.tfstate"
     region = "eu-west-2"
   }
 }
